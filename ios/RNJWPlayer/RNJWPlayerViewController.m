@@ -138,7 +138,7 @@
         NSData* data = [NSJSONSerialization dataWithJSONObject:sizesDict options:NSJSONWritingPrettyPrinted error: &error];
         _parentView.onPlayerSizeChange(@{@"sizes": data});
       
-        [controller setVisibility:0 forControls:@[@3, @4]];
+        [controller setVisibility:0 for:@[@3, @4]];
     }
 }
 
