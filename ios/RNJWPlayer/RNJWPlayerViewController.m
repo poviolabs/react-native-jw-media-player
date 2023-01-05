@@ -33,7 +33,7 @@
 
 -(void)disableCastingButtons
 {
-  [self setVisibility:0 forControls:@[@3, @4]];
+//  [self setVisibility:0 forControls:@[@3, @4]];
 }
 
 #pragma mark - JWPlayer Delegate
@@ -137,6 +137,8 @@
         NSError* error = nil;
         NSData* data = [NSJSONSerialization dataWithJSONObject:sizesDict options:NSJSONWritingPrettyPrinted error: &error];
         _parentView.onPlayerSizeChange(@{@"sizes": data});
+      
+        [controller setVisibility:0 forControls:@[@3, @4]];
     }
 }
 
