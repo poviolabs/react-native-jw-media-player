@@ -31,6 +31,11 @@
     self.player.contentKeyDataSource = nil;
 }
 
+-(void)disableCastingButtons
+{
+  [self setVisibility:0 forControls:@[@3, @4]];
+}
+
 #pragma mark - JWPlayer Delegate
 
 - (void)jwplayerIsReady:(id<JWPlayer>)player

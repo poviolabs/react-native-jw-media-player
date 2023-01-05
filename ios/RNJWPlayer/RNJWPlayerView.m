@@ -697,7 +697,7 @@
     }
   
     // hide airplay and chromecast buttons
-    [self.playerViewController setVisibility:0 forControls:@[3, 4]]
+    [_playerViewController disableCastingButtons];
     
     [self presentPlayerViewController:playerConfig];
 }
