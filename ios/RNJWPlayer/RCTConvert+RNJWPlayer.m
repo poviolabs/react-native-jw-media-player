@@ -45,4 +45,22 @@ RCT_ENUM_CONVERTER(JWRelatedOnComplete, (@{
     @"autoplay": @(JWRelatedOnCompleteAutoplay),
 }), JWRelatedOnCompleteShow, integerValue)
 
+RCT_ENUM_CONVERTER(JWVisibilityState, (@{
+    @"hidden": @(JWVisibilityStateHidden),
+    @"visible": @(JWVisibilityStateVisible),
+}), JWVisibilityStateHidden, integerValue)
+
+RCT_ENUM_CONVERTER(JWControlType, (@{
+    @"fastForwardButton": @(JWControlTypeFastForwardButton),
+    @"rewindButton": @(JWControlTypeRewindButton),
+    @"pictureInPictureButton": @(JWControlTypePictureInPictureButton),
+    @"airplayButton": @(JWControlTypeAirplayButton),
+    @"chromecastButton": @(JWControlTypeChromecastButton),
+    @"nextButton": @(JWControlTypeNextButton),
+    @"previousButton": @(JWControlTypePreviousButton),
+    @"settingsButton": @(JWControlTypeSettingsButton),
+    @"languagesButton": @(JWControlTypeLanguagesButton),
+    @"fullscreenButton": @(JWControlTypeFullscreenButton),
+}), JWControlTypeAirplayButton, integerValue)
+
 @end

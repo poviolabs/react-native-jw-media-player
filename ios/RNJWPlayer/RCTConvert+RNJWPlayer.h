@@ -22,4 +22,8 @@
 
 + (JWRelatedOnComplete)JWRelatedOnComplete:(id)json;
 
++ (JWVisibilityState)JWVisibilityState:(id)json;
+
++ (JWControlType)JWControlType:(id)json;
+
 @end
