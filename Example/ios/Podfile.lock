@@ -78,10 +78,11 @@ PODS:
     - Protobuf (~> 3.13)
   - google-cast-sdk/Core (4.7.0):
     - Protobuf (~> 3.13)
-  - JWPlayerKit (4.6.2)
+  - GoogleAds-IMA-iOS-SDK (3.14.5)
+  - JWPlayerKit (4.10.0)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
-  - Protobuf (3.21.2)
+  - Protobuf (3.22.0)
   - RCT-Folly (2021.06.28.00-v2):
     - boost
     - DoubleConversion
@@ -370,11 +371,12 @@ PODS:
     - React
   - RNGestureHandler (2.4.2):
     - React-Core
-  - RNJWPlayer (0.2.24):
+  - RNJWPlayer (0.2.27):
     - google-cast-sdk (~> 4.7.0)
-    - JWPlayerKit (~> 4.6.2)
+    - GoogleAds-IMA-iOS-SDK (~> 3.14.3)
+    - JWPlayerKit (~> 4.10.0)
     - React
-  - RNScreens (3.13.1):
+  - RNScreens (3.14.1):
     - React-Core
     - React-RCTImage
   - RNVectorIcons (8.1.0):
@@ -445,7 +447,7 @@ DEPENDENCIES:
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNFS (from `../node_modules/react-native-fs`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
-  - RNJWPlayer (from `../node_modules/react-native-jw-media-player/ios`)
+  - RNJWPlayer (from `../node_modules/react-native-jw-media-player`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -464,6 +466,7 @@ SPEC REPOS:
     - FlipperKit
     - fmt
     - google-cast-sdk
+    - GoogleAds-IMA-iOS-SDK
     - JWPlayerKit
     - libevent
     - OpenSSL-Universal
@@ -545,7 +548,7 @@ EXTERNAL SOURCES:
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNJWPlayer:
-    :path: "../node_modules/react-native-jw-media-player/ios"
+    :path: "../node_modules/react-native-jw-media-player"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNVectorIcons:
@@ -571,10 +574,11 @@ SPEC CHECKSUMS:
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 476ee3e89abb49e07f822b48323c51c57124b572
   google-cast-sdk: 6731e9a206ce43e0f4433d15598ad8a19f0371d5
-  JWPlayerKit: f72f577e907b450f76f0185233eab45db285d21b
+  GoogleAds-IMA-iOS-SDK: b088674002266c5638e73d10696c8b13872ee15e
+  JWPlayerKit: 39faf31167189fdcb35f0e6b2a61df2c15a0c6cc
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
-  Protobuf: 818c6a87e44193a77f56b87c6a1c106efda7e062
+  Protobuf: 5e6cbc143d02fe08585d86b0098f8b755d2caaab
   RCT-Folly: 4d8508a426467c48885f1151029bc15fa5d7b3b8
   RCTRequired: 00581111c53531e39e3c6346ef0d2c0cf52a5a37
   RCTTypeSafety: 07e03ee7800e7dd65cba8e52ad0c2edb06c96604
@@ -606,13 +610,13 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 1e3f62b9ec32f7754fac60bd06b8f8a27124e7f0
   RNFS: 2bd9eb49dc82fa9676382f0585b992c424cd59df
   RNGestureHandler: 61628a2c859172551aa2100d3e73d1e57878392f
-  RNJWPlayer: bd590297f22d85c19885b40a7465cfa991ef6556
-  RNScreens: 40a2cb40a02a609938137a1e0acfbf8fc9eebf19
+  RNJWPlayer: 232b3424759ab8fce700134b87e64120091d882c
+  RNScreens: aa9a97835afbbdc18a4757870b2b59b7d9fae16a
   RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 17cd9a50243093b547c1e539c749928dd68152da
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 72302fbb90a843c0cefdfb43fe4bd7e42dee995b
+PODFILE CHECKSUM: 183176a62fadac6342b1b2b4607c7371f88c8773
 
 COCOAPODS: 1.11.3
