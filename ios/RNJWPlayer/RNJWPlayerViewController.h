@@ -26,5 +26,6 @@
 
 -(void)setDelegates;
 -(void)removeDelegates;
+-(void)disableCastingButtons;
 
 @end

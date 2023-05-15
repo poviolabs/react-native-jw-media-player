@@ -31,6 +31,11 @@
     self.player.contentKeyDataSource = nil;
 }
 
+-(void)disableCastingButtons
+{
+//  [self setVisibility:0 forControls:@[@3, @4]];
+}
+
 #pragma mark - JWPlayer Delegate
 
 - (void)jwplayerIsReady:(id<JWPlayer>)player
@@ -132,6 +137,8 @@
         NSError* error = nil;
         NSData* data = [NSJSONSerialization dataWithJSONObject:sizesDict options:NSJSONWritingPrettyPrinted error: &error];
         _parentView.onPlayerSizeChange(@{@"sizes": data});
+      
+        [controller setVisibility:0 for:@[@3, @4]];
     }
 }
 

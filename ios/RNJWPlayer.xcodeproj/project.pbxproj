@@ -13,6 +13,7 @@
 		2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */; };
 		3BC75FCC1E43B1DB0011FBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */; };
 		3BC75FD11E43B3090011FBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC75FD01E43B3090011FBAA /* Foundation.framework */; };
+		99A84E71296727BE00A71DEC /* RNJWPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A84E6F296727BE00A71DEC /* RNJWPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJWPlayerView.m; path = RNJWPlayer/RNJWPlayerView.m; sourceTree = "<group>"; };
 		3BC75FCB1E43B1DB0011FBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BC75FD01E43B3090011FBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99A84E6F296727BE00A71DEC /* RNJWPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJWPlayerViewController.m; path = RNJWPlayer/RNJWPlayerViewController.m; sourceTree = "<group>"; };
+		99A84E70296727BE00A71DEC /* RNJWPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJWPlayerViewController.h; path = RNJWPlayer/RNJWPlayerViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				99A84E70296727BE00A71DEC /* RNJWPlayerViewController.h */,
+				99A84E6F296727BE00A71DEC /* RNJWPlayerViewController.m */,
 				2AA52BE126C144B200AD26AE /* RNJWPlayerView.h */,
 				2AA52BE426C144B200AD26AE /* RNJWPlayerView.m */,
 				2AA52BE326C144B200AD26AE /* RNJWPlayerViewManager.h */,
@@ -145,6 +150,7 @@
 			files = (
 				2AA52BE826C144B200AD26AE /* RNJWPlayerView.m in Sources */,
 				2A5DC7C0272B5DB6003BF3E4 /* RCTConvert+RNJWPlayer.m in Sources */,
+				99A84E71296727BE00A71DEC /* RNJWPlayerViewController.m in Sources */,
 				2AA52BE726C144B200AD26AE /* RNJWPlayerViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

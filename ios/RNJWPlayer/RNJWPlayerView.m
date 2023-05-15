@@ -695,6 +695,9 @@
             _playerViewController.offlinePosterImage = image;
         }
     }
+  
+    // hide airplay and chromecast buttons
+    [_playerViewController disableCastingButtons];
     
     [self presentPlayerViewController:playerConfig];
 }
